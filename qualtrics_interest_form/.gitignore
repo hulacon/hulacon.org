@@ -1,0 +1,15 @@
+# Python
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+
+# Secrets — never commit these even if they wander in here
+*.txt
+*.env
+.env
+.env.*
+
+# OS
+.DS_Store

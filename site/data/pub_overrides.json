@@ -1,0 +1,11 @@
+{
+  "_comment": "Manual corrections applied on top of ORCID/Crossref data by build_pubs.py and js/pubs.js. Keys are either a DOI (lowercase) or a title key (title lowercased, non-word chars stripped). Values overwrite the fetched record's fields.",
+  "overrides": {
+    "neuraltopographicfactoranalysisforfmridata": {
+      "authors": "Sennesh E, Khan Z, Wang Y, Hutchinson JB, Satpute AB, Dy J, van de Meent JW",
+      "venue": "Advances in Neural Information Processing Systems 33 (NeurIPS)",
+      "year": 2020,
+      "url": "https://proceedings.neurips.cc/paper/2020/hash/8c3c27ac7d298331a1bdfd0a5e8703d3-Abstract.html"
+    }
+  }
+}

@@ -1,0 +1,9 @@
+# Redirects from the old WordPress (UO Blogs) permalinks to the static pages,
+# so links out in the wild keep working after the host switch.
+Redirect 301 /about/ /index.html
+Redirect 301 /people/ /people.html
+Redirect 301 /publications/ /publications.html
+Redirect 301 /join-us/ /join.html
+Redirect 301 /contact/ /contact.html
+# The old News page has no equivalent on the static site; send to the homepage.
+Redirect 301 /news/ /index.html
