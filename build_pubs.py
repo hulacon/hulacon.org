@@ -317,6 +317,7 @@ def render(pubs):
 
   <script src="js/main.js"></script>
   <script src="js/pubs.js"></script>
+  <!-- Cloudflare Web Analytics --><script type='module' src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{{"token": "a704ad2ca6104a5793aed3b8f172d8c7"}}'></script><!-- End Cloudflare Web Analytics -->
 </body>
 </html>
 """
