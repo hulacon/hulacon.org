@@ -192,6 +192,8 @@ img { max-width: 100%; display: block; }
   width: 34px; height: 34px; border-radius: 10px; background: var(--green-soft); color: var(--green);
   display: grid; place-items: center; font-size: 1rem;
 }
+.repo__icon svg { width: 22px; height: 22px; display: block; }
+.repo__icon img { width: 100%; height: 100%; border-radius: 10px; object-fit: cover; display: block; }
 .repo__name { font-family: ui-monospace, "SF Mono", Menlo, monospace; font-weight: 600; font-size: 1.02rem; color: var(--green); }
 .repo p { margin: 0; color: #465049; font-size: .96rem; flex: 1; }
 .repo__go { font-size: .88rem; font-weight: 600; color: var(--green-mid); }
